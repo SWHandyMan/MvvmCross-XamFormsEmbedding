@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--/-:cnd -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8+wpa81</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="2.4.0.38779" />
+    <PackageReference Include="MvvmCross.Platform" Version="5.4.0" />
+    <PackageReference Include="MvvmCross" Version="5.4.0" />
+    <PackageReference Include="MvvmCross.Binding" Version="5.4.0" />
+    <PackageReference Include="MvvmCross.Core" Version="5.4.0" />
+    <PackageReference Include="MvvmCross.Forms" Version="5.4.0" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Compile Update="Pages\ChildPage2.xaml.cs">
+      <DependentUpon>ChildPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="FormsApp.xaml.cs">
+      <DependentUpon>FormsApp.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\ChildPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormsApp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
