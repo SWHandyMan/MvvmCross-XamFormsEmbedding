@@ -5,8 +5,8 @@
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/FirstViewModel.cs" Line="10" Column="1" />
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/ChildViewModel.cs" Line="22" Column="1" />
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/App.cs" Line="6" Column="34" />
-      <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Droid/Setup.cs" Line="25" Column="9" />
-      <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/Pages/ChildPage.xaml" Line="12" Column="19" />
+      <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Droid/Setup.cs" Line="29" Column="10" />
+      <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/Pages/ChildPage.xaml" Line="16" Column="24" />
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/Pages/ChildPage.xaml.cs" Line="17" Column="6" />
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/FormsApp.xaml" Line="6" Column="25" />
       <File FileName="FormsEmbeddingTest/FormsEmbeddingTest.Core/FormsApp.xaml.cs" Line="16" Column="1" />
@@ -18,10 +18,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/blanphea/Sandbox/FormsEmbeddingTest/FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/ChildViewModel.cs" relfile="FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/ChildViewModel.cs" line="22" column="1" />
+      <Breakpoint file="/Users/blanphea/MvvmCross-XamFormsEmbedding/FormsEmbeddingTest/FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/ChildViewModel.cs" relfile="FormsEmbeddingTest/FormsEmbeddingTest.Core/ViewModels/ChildViewModel.cs" line="22" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.FormsEmbeddingTest.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5_API_22" AndroidDesignerPreferredTheme="MyTheme" />
+  <MonoDevelop.Ide.ItemProperties.FormsEmbeddingTest.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.988923445042515056" AndroidDesignerPreferredTheme="MyTheme" />
 </Properties>
